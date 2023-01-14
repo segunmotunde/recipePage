@@ -25,10 +25,15 @@ h1{
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2rem;
+    line-height: 10px;
+}
+#ingreContainer{
+    line-height: 1.4em;
 }
 #ingreContainer span{
     font-weight: bolder;
 }
+
 #iconRemain h4{
     color: rgba(0, 0, 0, 0.437);
 }
@@ -43,6 +48,12 @@ h1{
 .profile{
     display: flex;
     padding: 15px 30px;
+}
+.profile div{
+    margin: 0 10px;
+}
+.profile div h4{
+    margin: 5px 0;
 }
 .instruCont ol{
     counter-reset: li;
